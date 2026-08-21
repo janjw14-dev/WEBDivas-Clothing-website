@@ -1,0 +1,140 @@
+body {
+    background-color: #f5f2f2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    background-color: #c28b97;
+    padding: 20px;
+    border-radius: 20px;
+    width: 95vw;
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+}
+
+header h1 {
+    font-size: 30px;
+    color: #421c23;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: none;
+}
+
+#head {
+    display: flex;
+}
+
+#button {
+    margin-left: 260px;
+    margin-top: 10px;
+    order: 2;
+}
+
+#button > a {
+    line-height: 25px;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+#button a:hover {
+    color: #762e3f;
+}
+
+#head input {
+    border: 1px solid #762e3f;
+    border-radius: 10px;
+    padding: 10px;
+    color: #762e3f;
+    transition: 0.3s;
+    order: 1;
+    width: 270px;
+    height: 30px;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+#sub:hover {
+    background-color: #762e3f;
+    color: #e8dddd;
+    cursor: pointer;
+}
+
+
+#clothessection, #accessoriessection, #bagsection {
+    font-size: 28px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+#clothessection h2,
+#accessoriessection h2,
+#bagsection h2 {
+    margin-top: 50px;
+    font-weight: bolder;
+    cursor: none;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.citems, .aitems, .bitems {
+    background-color: #6e3c3f;
+    width: 280px;
+    height: 390px;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(118,46,63,0.9);
+}
+
+.citems img, .aitems img, .bitems img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.citems p, .aitems p, .bitems p {
+    margin: 2px 0;
+}
+
+.citems button, .aitems button, .bitems button {
+    background-color: #e8dddd;
+    color: #704a4c;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: 12px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.citems button:hover,
+.aitems button:hover,
+.bitems button:hover {
+    background-color: #421c23;
+    color: #e8dddd;
+    transform: translateY(-5px);
+}
+
+.containerc, .containera, .containerb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
